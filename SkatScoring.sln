@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{47CE974B-2797-4BA8-9FC3-421EA3C864FD}"
+ProjectSection(SolutionItems) = preProject
+	docker-compose.yml = docker-compose.yml
+	database.sql = database.sql
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkatScoring.Contracts", "SkatScoring.Contracts\SkatScoring.Contracts.csproj", "{A11BF847-E574-4205-9C74-0B3FC447C31A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkatScoring.DataAccess", "SkatScoring.DataAccess\SkatScoring.DataAccess.csproj", "{7B9EDC2B-8849-4B0F-BC30-C4C2A1EF6623}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B105D728-7397-460D-AE70-DAA1BE35438E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkatScoring.DataAccess.Tests", "SkatScoring.DataAccess.Tests\SkatScoring.DataAccess.Tests.csproj", "{50152840-DFE4-46CE-AC27-DE9813DAD5B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A11BF847-E574-4205-9C74-0B3FC447C31A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11BF847-E574-4205-9C74-0B3FC447C31A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A11BF847-E574-4205-9C74-0B3FC447C31A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A11BF847-E574-4205-9C74-0B3FC447C31A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B9EDC2B-8849-4B0F-BC30-C4C2A1EF6623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B9EDC2B-8849-4B0F-BC30-C4C2A1EF6623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B9EDC2B-8849-4B0F-BC30-C4C2A1EF6623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B9EDC2B-8849-4B0F-BC30-C4C2A1EF6623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50152840-DFE4-46CE-AC27-DE9813DAD5B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50152840-DFE4-46CE-AC27-DE9813DAD5B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50152840-DFE4-46CE-AC27-DE9813DAD5B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50152840-DFE4-46CE-AC27-DE9813DAD5B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50152840-DFE4-46CE-AC27-DE9813DAD5B3} = {B105D728-7397-460D-AE70-DAA1BE35438E}
+	EndGlobalSection
+EndGlobal
