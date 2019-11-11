@@ -2,9 +2,11 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.0</TargetFramework>
+        <Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="Autofac" Version="4.9.4" />
       <PackageReference Include="FluentNHibernate" Version="2.1.2" />
       <PackageReference Include="NHibernate" Version="5.2.6" />
     </ItemGroup>
