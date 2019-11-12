@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B105D728
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkatScoring.DataAccess.Tests", "SkatScoring.DataAccess.Tests\SkatScoring.DataAccess.Tests.csproj", "{50152840-DFE4-46CE-AC27-DE9813DAD5B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkatScoring.WebApi", "SkatScoring.WebApi\SkatScoring.WebApi.csproj", "{CEAF5A78-3B3D-4734-850E-91C8C668F06E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{50152840-DFE4-46CE-AC27-DE9813DAD5B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50152840-DFE4-46CE-AC27-DE9813DAD5B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50152840-DFE4-46CE-AC27-DE9813DAD5B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEAF5A78-3B3D-4734-850E-91C8C668F06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEAF5A78-3B3D-4734-850E-91C8C668F06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEAF5A78-3B3D-4734-850E-91C8C668F06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEAF5A78-3B3D-4734-850E-91C8C668F06E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{50152840-DFE4-46CE-AC27-DE9813DAD5B3} = {B105D728-7397-460D-AE70-DAA1BE35438E}

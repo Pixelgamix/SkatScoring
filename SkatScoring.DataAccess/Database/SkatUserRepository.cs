@@ -31,7 +31,7 @@ namespace SkatScoring.DataAccess.Database
             return Session.UpdateAsync(skatuser);
         }
 
-        public Task GetSkatUserByName(string name)
+        public Task<SkatUser> GetSkatUserByNameAsync(string name)
         {
             if (Session is null) throw new InvalidOperationException(nameof(Session));
             return Session.Query<SkatUser>().Where(x => x.UserName == name).FirstOrDefaultAsync();

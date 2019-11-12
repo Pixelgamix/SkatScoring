@@ -18,6 +18,6 @@ namespace SkatScoring.Contracts.Database
 
         Task UpdateSkatUserAsync(SkatUser skatuser);
 
-        Task GetSkatUserByName(String name);
+        Task<SkatUser> GetSkatUserByNameAsync(String name);
     }
 }
