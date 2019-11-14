@@ -4,6 +4,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{47CE97
 ProjectSection(SolutionItems) = preProject
 	docker-compose.yml = docker-compose.yml
 	database.sql = database.sql
+	dockerfile = dockerfile
+	.dockerignore = .dockerignore
 EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkatScoring.Contracts", "SkatScoring.Contracts\SkatScoring.Contracts.csproj", "{A11BF847-E574-4205-9C74-0B3FC447C31A}"
